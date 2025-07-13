@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Quicksand:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Romantic color palette and design system */
+@layer base {
+    :root {
+        --background: 30 60% 96%; /* Warm Cream/Ivory #FFF8F0 */
+        --foreground: 350 25% 35%; /* Deep rose for text */
+
+        --card: 0 0% 100%;
+        --card-foreground: 350 25% 35%;
+
+        --popover: 0 0% 100%;
+        --popover-foreground: 350 25% 35%;
+
+        --primary: 350 55% 85%; /* Blush Pink #F7D4D4 */
+        --primary-foreground: 350 35% 25%;
+
+        --secondary: 280 40% 90%; /* Soft Lavender #E8D7F1 */
+        --secondary-foreground: 350 25% 35%;
+
+        --muted: 30 40% 95%; /* Light Cream */
+        --muted-foreground: 350 15% 45%;
+
+        --accent: 350 45% 80%; /* Dusty Rose #D8A7B1 */
+        --accent-foreground: 350 35% 25%;
+
+        --destructive: 0 84.2% 60.2%;
+        --destructive-foreground: 210 40% 98%;
+
+        --border: 350 35% 88%; /* Soft border */
+        --input: 350 35% 88%;
+        --ring: 350 55% 85%;
+
+        --radius: 0.75rem;
+
+        /* Custom romantic colors */
+        --blush-pink: 350 55% 85%; /* #F7D4D4 */
+        --soft-lavender: 280 40% 90%; /* #E8D7F1 */
+        --warm-cream: 30 60% 96%; /* #FFF8F0 */
+        --dusty-rose: 350 45% 80%; /* #D8A7B1 */
+        --soft-gold: 45 70% 85%; /* #F6E2B3 */
+        --light-grey: 0 0% 92%; /* #EAEAEA */
+        --soft-coral: 5 65% 88%; /* #FAD2CF */
+
+        /* Gradient variations */
+        --blush-25: 350 70% 97%;
+        --lavender-25: 280 50% 97%;
+        --gold-25: 45 80% 96%;
+        --coral-25: 5 80% 96%;
+    }
+}
+
+@layer base {
+    * {
+        @apply border-border;
+    }
+
+    body {
+        @apply bg-background text-foreground;
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    .font-script {
+        font-family: 'Dancing Script', cursive;
+    }
+
+    .font-serif {
+        font-family: 'Playfair Display', serif;
+    }
+}
+
+@layer utilities {
+    .text-gradient-pink {
+        background: linear-gradient(135deg, hsl(var(--blush-pink)) 0%, hsl(var(--dusty-rose)) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+
+    .bg-gradient-romantic {
+        background: linear-gradient(135deg, hsl(var(--blush-25)) 0%, hsl(var(--lavender-25)) 50%, hsl(var(--gold-25)) 100%);
+    }
+
+    .bg-gradient-soft {
+        background: linear-gradient(135deg, hsl(var(--warm-cream)) 0%, hsl(var(--blush-25)) 100%);
+    }
+
+    .bg-gradient-dreamy {
+        background: linear-gradient(135deg, hsl(var(--lavender-25)) 0%, hsl(var(--coral-25)) 100%);
+    }
+
+    .shadow-romantic {
+        box-shadow: 0 10px 30px -5px hsl(var(--dusty-rose) / 0.15);
+    }
+
+    .shadow-soft {
+        box-shadow: 0 4px 20px -2px hsl(var(--blush-pink) / 0.2);
+    }
+
+    .animate-float {
+        animation: float 6s ease-in-out infinite;
+    }
+
+    .animate-gentle-bounce {
+        animation: gentleBounce 3s ease-in-out infinite;
+    }
+
+    .animate-sparkle {
+        animation: sparkle 2s ease-in-out infinite alternate;
+    }
+
+    /* Heart cursor effect */
+    .cursor-heart {
+        cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='%23D8A7B1'%3E%3Cpath d='M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z'/%3E%3C/svg%3E") 12 12, auto;
+    }
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes gentleBounce {
+    0%, 100% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+}
+
+@keyframes sparkle {
+    0% {
+        opacity: 0.3;
+        transform: scale(0.8);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1.2);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-fade-in-up {
+    animation: fadeInUp 0.8s ease-out;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: hsl(var(--blush-25));
+}
+
+::-webkit-scrollbar-thumb {
+    background: hsl(var(--dusty-rose));
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: hsl(var(--blush-pink));
+}
