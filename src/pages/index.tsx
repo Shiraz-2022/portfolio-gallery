@@ -22,7 +22,7 @@ const Index = () => {
             <section className="relative h-screen flex items-center justify-center overflow-hidden">
                 {/* Video Background Placeholder */}
                 <div className="absolute inset-0 bg-gradient-soft">
-                    <div className="absolute inset-0 bg-black/10"></div>
+                    <div className="absolute inset-0 bg-black/50"></div>
                     <img
                         src="/images/IMG-20250713-WA0022.jpg"
                         alt="Beautiful moment"

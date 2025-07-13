@@ -17,19 +17,16 @@ const AboutHer = () => {
 
                         <div className="space-y-6 text-rose-600">
                             <p className="font-serif text-xl leading-relaxed opacity-90">
-                                Zainab is one of the few young women who truly understands what it means to be a woman.
-                                In a world where many chase fleeting pleasures, she seeks a man of sincerity — one who prays and worships Allah.
+                                Zainab is one of the few young women who truly understands what it means to be a woman. In a world where many chase fleeting pleasures, she chooses a life rooted in faith, sincerity, and devotion to Allah.
                             </p>
 
                             <p className="font-serif text-xl leading-relaxed opacity-90">
-                                Her laughter is contagious, her dreams are endless, and her heart
-                                is bigger than the ocean. She believes in magic, in possibilities,
-                                and in the power of love to change the world.
+                                Her kindness is quiet but lasting, her faith is steady, and her heart holds space
+                                for everyone she loves. She believes in patience, in prayer, and in the gentle strength it takes to build a life rooted in peace and gratitude.
                             </p>
 
                             <p className="font-serif text-xl leading-relaxed opacity-90 italic">
                                 She is art, poetry, and music all wrapped into one beautiful soul.
-                                She is my favorite story, and I'm so grateful to be part of hers.
                             </p>
                         </div>
 

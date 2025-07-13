@@ -13,7 +13,7 @@ const polaroids: PolaroidData[] = [
     {
         id: 1,
         image: "/images/IMG-20250713-WA0025.jpg",
-        quote: "Her smile lights up every room she enters, like sunshine breaking through morning clouds ☀️",
+        quote: "She carries peace within her, a quiet strength shaped by faith and patience",
         rotation: "rotate-12",
         position: "top-4 left-8"
     },
@@ -27,7 +27,7 @@ const polaroids: PolaroidData[] = [
     {
         id: 3,
         image: "/images/IMG-20250713-WA0021.jpg",
-        quote: "Her laughter is my favorite melody, a song that makes my heart dance 🎵",
+        quote: "Her laughter is light and effortless, the kind that fills a room with warmth. 🎵",
         rotation: "rotate-3",
         position: "top-64 left-32"
     },
@@ -40,7 +40,7 @@ const polaroids: PolaroidData[] = [
     },
     {
         id: 5,
-        image: "/images/IMG-20250713-WA0025.jpg",
+        image: "/images/IMG-20250713-WA0026.jpg",
         quote: "Her kindness is like a gentle breeze that touches everyone around her 🌸",
         rotation: "rotate-6",
         position: "top-96 left-16"
@@ -48,7 +48,7 @@ const polaroids: PolaroidData[] = [
     {
         id: 6,
         image: "/images/IMG-20250713-WA0029.jpg",
-        quote: "In her eyes, I see galaxies of possibilities and universes of love ✨",
+        quote: "Her smile lights up every room she enters, like sunshine breaking through morning clouds ☀️",
         rotation: "-rotate-3",
         position: "top-32 left-1/2"
     }

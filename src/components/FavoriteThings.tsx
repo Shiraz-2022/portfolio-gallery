@@ -1,22 +1,23 @@
-import { Heart, Sparkles, Star, Flower, Coffee, Book, Music, Camera } from 'lucide-react';
+import { Heart, Sparkles, Star, Flower, Coffee, Book, Music, Camera, Cat, Home } from 'lucide-react';
 
 const favorites = [
-    { icon: Coffee, text: "Morning lattes with extra foam hearts", color: "text-amber-400" },
-    { icon: Flower, text: "Wildflower bouquets and garden walks", color: "text-pink-400" },
-    { icon: Book, text: "Poetry books and handwritten letters", color: "text-purple-400" },
-    { icon: Music, text: "Vintage records and dancing barefoot", color: "text-rose-400" },
-    { icon: Star, text: "Stargazing and making wishes at 11:11", color: "text-yellow-400" },
-    { icon: Camera, text: "Capturing sunsets and candid moments", color: "text-indigo-400" }
+    { icon: Heart, text: "Quiet moments and enjoying her own company", color: "text-rose-400" },
+    { icon: Cat, text: "Soft purring cats and their gentle companionship", color: "text-amber-400" },
+    { icon: Home, text: "Family gatherings and the warmth of home", color: "text-yellow-400" },
+    { icon: Sparkles, text: "The peace found in Allah, faith, and prayer", color: "text-purple-400" },
+    { icon: Flower, text: "Nature walks, gardens, and small wonders", color: "text-green-400" },
 ];
 
+
 const dreams = [
-    "Building a cozy library with floor-to-ceiling books",
-    "Growing a garden full of roses and lavender",
-    "Learning to paint watercolor landscapes",
-    "Writing love letters to leave around the world",
-    "Dancing in a field of sunflowers at golden hour",
-    "Creating a home filled with laughter and warmth"
+    "Building a peaceful, loving home filled with warmth and faith",
+    "Raising beautiful children with care, patience, and kindness",
+    "Having a husband who protects, supports, and cherishes her",
+    "Creating a life surrounded by family, simplicity, and gratitude",
+    "Exploring beautiful places, cultures, and nature at her own pace",
+    "Living a life free from the need to work, focused on home, heart, and faith"
 ];
+
 
 const FavoriteThings = () => {
     return (
@@ -94,7 +95,7 @@ const FavoriteThings = () => {
                 <div className="mt-20 text-center">
                     <div className="bg-white/40 backdrop-blur-sm rounded-3xl p-8 shadow-romantic max-w-3xl mx-auto">
                         <p className="font-script text-3xl text-rose-600 mb-4">
-                            "She collects moments like flowers, pressing them between the pages of her heart"
+                            "She cherishes the quiet blessings others often overlook: family, faith, and the beauty of ordinary days"
                         </p>
 
                         <div className="flex justify-center space-x-4 mt-6">
