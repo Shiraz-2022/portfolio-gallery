@@ -1,5 +1,5 @@
-import { useState, useEffect } from 'react';
-import { Heart, Sparkles, Star } from 'lucide-react';
+import { useState, useEffect, useRef } from 'react';
+import { Heart, Sparkles, Star, PlayCircle, PauseCircle } from 'lucide-react';
 import PolaroidWall from '../components/PolaroidWall';
 import FloatingQuotes from '../components/FloatingQuotes';
 import AboutHer from '../components/AboutHer';
@@ -9,12 +9,38 @@ import FavoriteThings from '../components/FavoriteThings';
 
 const Index = () => {
     const [scrollY, setScrollY] = useState(0);
+    const [isPlaying, setIsPlaying] = useState(false);
+    const audioRef = useRef<HTMLAudioElement | null>(null);
 
     useEffect(() => {
-        const handleScroll = () => setScrollY(window.scrollY);
-        window.addEventListener('scroll', handleScroll);
-        return () => window.removeEventListener('scroll', handleScroll);
+        // Initialize the audio object
+        audioRef.current = new Audio('/audio/her-song.mp3');
+        const audio = audioRef.current;
+
+        // Reset state when the song ends
+        audio.onended = () => {
+            setIsPlaying(false);
+        };
+
+        // Cleanup audio object on component unmount
+        return () => {
+            audio.pause();
+            audio.onended = null;
+        };
     }, []);
+
+    const handlePlayPause = () => {
+        if (!audioRef.current) return;
+        const audio = audioRef.current;
+
+        if (isPlaying) {
+            audio.pause();
+        } else {
+            audio.play().catch(e => console.error("Audio play failed:", e));
+        }
+
+        setIsPlaying(!isPlaying);
+    };
 
     return (
         <div className="min-h-screen bg-gradient-romantic overflow-x-hidden">
@@ -47,15 +73,32 @@ const Index = () => {
                         </p>
                         <div className="w-32 h-0.5 bg-gradient-to-r from-transparent via-blush-pink to-transparent mx-auto mb-8"></div>
                         <p className="font-serif text-lg text-dusty-rose leading-relaxed max-w-2xl mx-auto opacity-80">
-                            "She is my reason to go to office everyday and be happy. Her voice is a song, a kind of magic that makes me believe in better things."
+                            "She's a girl of quiet strength, a beautiful contradiction who cares for her family and turns every busy day into a journey"
                         </p>
+                    </div>
+
+                    {/* Beautiful Play Button */}
+                    <div className="mt-12 flex flex-col items-center">
+                        <button
+                            onClick={handlePlayPause}
+                            className="bg-white/40 backdrop-blur-sm p-4 rounded-full shadow-romantic hover:shadow-xl transition-all duration-300 transform hover:scale-110 active:scale-95 animate-pulse-gentle"
+                        >
+                            {isPlaying ? (
+                                <PauseCircle className="w-12 h-12 text-dusty-rose" />
+                            ) : (
+                                <PlayCircle className="w-12 h-12 text-blush-pink" />
+                            )}
+                        </button>
+                        {/*<p className="font-serif text-lg text-dusty-rose mt-4 opacity-80">*/}
+                        {/*    {isPlaying ? "Pause her song" : "Press play to hear her song"}*/}
+                        {/*</p>*/}
                     </div>
                 </div>
 
                 {/* Scroll Indicator */}
-                <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-gentle-bounce">
-                    <div className="w-6 h-10 border-2 border-blush-pink rounded-full flex justify-center">
-                        <div className="w-1 h-3 bg-blush-pink rounded-full mt-2 animate-pulse"></div>
+                <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex justify-center items-center">
+                    <div className="w-6 h-10 border-2 border-blush-pink rounded-full flex justify-center items-center">
+                        <div className="w-1 h-3 bg-blush-pink rounded-full animate-pulse"></div>
                     </div>
                 </div>
             </section>

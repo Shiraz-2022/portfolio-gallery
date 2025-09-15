@@ -3,7 +3,7 @@ import { Heart, Sparkles, Camera } from 'lucide-react';
 const memories = [
     {
         title: "The Dessert Adventure",
-        story: "It wasn't a very funny day, but it became one when we had that lotus pull-up cake. It was a sweet adventure that cleared something off your bucket list. That day I realized you're capable of eating a lot of dessert—a very cute and funny discovery.",
+        story: "It wasn't a very funny day, but it became one when we had that lotus pull-up cake. It was a sweet adventure that cleared something off your bucket list, yeah, Treschellicious. That day, I realized you're capable of eating a lot of dessert—a very cute and funny discovery.",
         image: "/images/ind7.jpg"
     },
     {
@@ -13,7 +13,7 @@ const memories = [
     },
     {
         title: "The Flat Tire Journey",
-        story: "The day I hijacked your scooty, it got a flat tire. We had to stop at a petrol pump to fill the air, and even though it was a small problem, it was a memorable journey with you. Traveling far with you, even on a flat tire, was a perfect kind of adventure.",
+        story: "The day I hijacked your scooty (like many days), it got a flat tire. We had to stop at a petrol pump to fill the air, and even though it was a small problem, it was a memorable journey with you. Traveling with you, even on a flat tire, was a perfect kind of adventure.",
         image: "/images/ind9.jpg"
     }
 ];
