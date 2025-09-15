@@ -24,7 +24,7 @@ const Index = () => {
                 <div className="absolute inset-0 bg-gradient-soft">
                     <div className="absolute inset-0 bg-black/50"></div>
                     <img
-                        src="/images/IMG-20250713-WA0022.jpg"
+                        src="images/ind2.jpg"
                         alt="Beautiful moment"
                         className="w-full h-full object-cover opacity-40"
                     />
@@ -40,14 +40,14 @@ const Index = () => {
                 <div className="relative z-10 text-center px-6 max-w-4xl">
                     <div className="animate-fade-in-up">
                         <h1 className="font-script text-6xl md:text-8xl text-gradient-pink mb-6 leading-tight">
-                            The Story of Zainab
+                            The Story of Indira
                         </h1>
                         <p className="font-serif text-2xl md:text-3xl text-dusty-rose mb-8 italic opacity-90">
                             Told in Moments
                         </p>
                         <div className="w-32 h-0.5 bg-gradient-to-r from-transparent via-blush-pink to-transparent mx-auto mb-8"></div>
                         <p className="font-serif text-lg text-dusty-rose leading-relaxed max-w-2xl mx-auto opacity-80">
-                            "She is a girl of quiet strength, guided by her faith, who finds purpose not in chasing dreams, but in serving her family with love, helping her father with patience, and protecting her little brother with a heart full of care"
+                            "She is my reason to go to office everyday and be happy. Her voice is a song, a kind of magic that makes me believe in better things."
                         </p>
                     </div>
                 </div>
@@ -107,11 +107,11 @@ const Index = () => {
                             To be continued...
                         </h2>
                         {/*<p className="font-serif text-2xl text-dusty-rose mb-6 italic">*/}
-                        {/*    with you ♡*/}
+                        {/* with you ♡*/}
                         {/*</p>*/}
                         <div className="w-48 h-0.5 bg-gradient-to-r from-transparent via-blush-pink to-transparent mx-auto mb-8"></div>
                         <p className="font-serif text-lg text-dusty-rose leading-relaxed opacity-80 max-w-2xl mx-auto">
-                            This is just the beginning of your beautiful story."
+                            This is just the beginning of your beautiful story.
                         </p>
 
                         {/* Floating Hearts */}

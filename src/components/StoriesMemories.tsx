@@ -2,19 +2,19 @@ import { Heart, Sparkles, Camera } from 'lucide-react';
 
 const memories = [
     {
-        title: "Umrah",
-        story: "She is someone who has walked in the sacred places of Makkah and Madinah, standing beneath the shade of history with humility and gratitude. Her heart feels most at peace where prayers linger in the air and every step feels closer to something eternal. Completing Umrah is not just something she has done — it's something that shaped her, quietly and profoundly.",
-        image: "/images/IMG-20250713-WA0021.jpg"
+        title: "The Dessert Adventure",
+        story: "It wasn't a very funny day, but it became one when we had that lotus pull-up cake. It was a sweet adventure that cleared something off your bucket list. That day I realized you're capable of eating a lot of dessert—a very cute and funny discovery.",
+        image: "/images/ind7.jpg"
     },
     {
-        title: "Cats",
-        story: "Gentle, playful, and full of affection — her love for cats is just another reflection of her tenderness. She finds joy in small, quiet companionships. To her, kindness isn’t loud; it’s found in soft purrs, slow blinks, and shared silences.",
-        image: "/images/IMG-20250713-WA0027.jpg"
+        title: "The Party Girl",
+        story: "I went to an office party and met a random girl I didn't even know was in my office. That girl was you. You were so full of life, completely crazy and partying. It was a whole different song, but just as beautiful.",
+        image: "/images/ind8.jpg"
     },
     {
-        title: "Beaches",
-        story: "The ocean feels like home to her. She loves the sound of waves folding against the shore, the vast horizon where sky and sea meet in quiet conversation. For her, beaches are not just destinations — they are reminders of how small we are, how wide the world is, and how peace can be found in simply listening to the rhythm of the earth.",
-        image: "/images/IMG-20250713-WA0025.jpg"
+        title: "The Flat Tire Journey",
+        story: "The day I hijacked your scooty, it got a flat tire. We had to stop at a petrol pump to fill the air, and even though it was a small problem, it was a memorable journey with you. Traveling far with you, even on a flat tire, was a perfect kind of adventure.",
+        image: "/images/ind9.jpg"
     }
 ];
 
@@ -27,7 +27,7 @@ const StoriesMemories = () => {
                         Her Beautiful Moments
                     </h2>
                     {/*<p className="font-serif text-xl text-rose-500 italic opacity-80 max-w-2xl mx-auto">*/}
-                    {/*    Every memory with her feels like a page from a fairy tale*/}
+                    {/* Every memory with her feels like a page from a fairy tale*/}
                     {/*</p>*/}
 
                     <div className="flex justify-center mt-8 space-x-3">
@@ -70,7 +70,7 @@ const StoriesMemories = () => {
                                         <img
                                             src={memory.image}
                                             alt={memory.title}
-                                            className="w-full h-80 object-cover rounded-2xl"
+                                            className="w-full h-80 object-contain rounded-2xl"
                                         />
 
                                         {/* Polaroid-style caption */}

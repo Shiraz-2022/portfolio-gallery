@@ -12,43 +12,43 @@ interface PolaroidData {
 const polaroids: PolaroidData[] = [
     {
         id: 1,
-        image: "/images/IMG-20250713-WA0025.jpg",
-        quote: "She carries peace within her, a quiet strength shaped by faith and patience",
+        image: "/images/ind5.jpg",
+        quote: "She carries her own music wherever she goes, a happy song for her family.",
         rotation: "rotate-12",
         position: "top-4 left-8"
     },
     {
         id: 2,
-        image: "/images/IMG-20250713-WA0027.jpg",
-        quote: "She has this magical way of making ordinary moments feel extraordinary 💫",
+        image: "/images/IMG-20250915-WA0005.jpg",
+        quote: "Her voice is so good, it makes you stop and wonder how a sound can be so sweet 💫",
         rotation: "-rotate-6",
         position: "top-20 right-12"
     },
     {
         id: 3,
-        image: "/images/IMG-20250713-WA0021.jpg",
-        quote: "Her laughter is light and effortless, the kind that fills a room with warmth. 🎵",
+        image: "/images/IMG-20250915-WA0009.jpg",
+        quote: "The world feels better when she's singing along to indie pop, making every moment feel like a music video 🎵",
         rotation: "rotate-3",
         position: "top-64 left-32"
     },
     {
         id: 4,
-        image: "/images/IMG-20250713-WA0022.jpg",
-        quote: "She dreams in colors that don't exist yet, painting the world more beautiful 🎨",
+        image: "/images/ind6.jpg",
+        quote: "She's so cute she keeps me awake at night, a beautiful song that never ends 🎨",
         rotation: "-rotate-12",
         position: "top-80 right-20"
     },
     {
         id: 5,
-        image: "/images/IMG-20250713-WA0026.jpg",
-        quote: "Her kindness is like a gentle breeze that touches everyone around her 🌸",
+        image: "/images/ind4.jpg",
+        quote: "Her kindness is like the best song on a rainy day, making everything feel brighter 🌸",
         rotation: "rotate-6",
         position: "top-96 left-16"
     },
     {
         id: 6,
-        image: "/images/IMG-20250713-WA0029.jpg",
-        quote: "Her smile lights up every room she enters, like sunshine breaking through morning clouds ☀️",
+        image: "/images/IMG-20250915-WA0006.jpg",
+        quote: "Coffee with her tastes 100 times better, a sweet little song in the morning ☀️",
         rotation: "-rotate-3",
         position: "top-32 left-1/2"
     }

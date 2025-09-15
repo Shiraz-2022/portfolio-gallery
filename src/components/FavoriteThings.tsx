@@ -1,23 +1,23 @@
-import { Heart, Sparkles, Star, Flower, Coffee, Book, Music, Camera, Cat, Home } from 'lucide-react';
+import { Heart, Sparkles, Star, Flower, Utensils, PartyPopper, Cat, Music, Home, Tv, Candy } from 'lucide-react';
 
 const favorites = [
-    { icon: Heart, text: "Quiet moments and enjoying her own company", color: "text-rose-400" },
-    { icon: Cat, text: "Soft purring cats and their gentle companionship", color: "text-amber-400" },
-    { icon: Home, text: "Family gatherings and the warmth of home", color: "text-yellow-400" },
-    { icon: Sparkles, text: "The peace found in Allah, faith, and prayer", color: "text-purple-400" },
-    { icon: Flower, text: "Nature walks, gardens, and small wonders", color: "text-green-400" },
+    { icon: Music, text: "Singing her heart out, making the whole world a stage", color: "text-rose-400" },
+    { icon: Cat, text: "Gentle purring cats and their soft companionship", color: "text-emerald-400" },
+    { icon: Utensils, text: "The perfect panipuri, a little burst of happy", color: "text-teal-400" },
+    { icon: Home, text: "Cozy nights at home, a place where she finds her peace", color: "text-yellow-400" },
+    { icon: Tv, text: "Getting lost in the adventure of Stranger Things", color: "text-blue-500" },
+    { icon: Candy, text: "Dark chocolate, a little treat that makes everything better", color: "text-amber-700" },
+    { icon: PartyPopper, text: "Partying with friends and dancing to her favorite songs", color: "text-pink-500" }
 ];
 
 
 const dreams = [
-    "Building a peaceful, loving home filled with warmth and faith",
-    "Raising beautiful children with care, patience, and kindness",
-    "Having a husband who protects, supports, and cherishes her",
-    "Creating a life surrounded by family, simplicity, and gratitude",
-    "Exploring beautiful places, cultures, and nature at her own pace",
-    "Living a life free from the need to work, focused on home, heart, and faith"
+    "To live a life filled with joy, and the best English and indie pop songs",
+    "To have her voice be a happy song for everyone who needs one",
+    "To always be there for her family, her greatest reason to keep going",
+    "To have new adventures, making the journey as fun as the destination",
+    "To stay strong and keep her beautiful song playing, no matter her mood"
 ];
-
 
 const FavoriteThings = () => {
     return (
@@ -95,7 +95,7 @@ const FavoriteThings = () => {
                 <div className="mt-20 text-center">
                     <div className="bg-white/40 backdrop-blur-sm rounded-3xl p-8 shadow-romantic max-w-3xl mx-auto">
                         <p className="font-script text-3xl text-rose-600 mb-4">
-                            "She cherishes the quiet blessings others often overlook: family, faith, and the beauty of ordinary days"
+                            "She is a gem, a melody of love and dreams"
                         </p>
 
                         <div className="flex justify-center space-x-4 mt-6">

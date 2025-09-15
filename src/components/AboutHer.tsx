@@ -1,4 +1,4 @@
-import { Heart, Sparkles, Star } from 'lucide-react';
+import { Heart, Sparkles, Star, Music, Mic, Coffee, TrendingUp } from 'lucide-react';
 
 const AboutHer = () => {
     return (
@@ -12,21 +12,20 @@ const AboutHer = () => {
                         </div>
 
                         <h2 className="font-script text-5xl md:text-6xl text-gradient-pink mb-8 leading-tight">
-                            Zainab's story
+                            Indira's Story
                         </h2>
 
                         <div className="space-y-6 text-rose-600">
                             <p className="font-serif text-xl leading-relaxed opacity-90">
-                                Zainab is one of the few young women who truly understands what it means to be a woman. In a world where many chase fleeting pleasures, she chooses a life rooted in faith, sincerity, and devotion to Allah.
+                                Indira is a girl who is beautifully independent, but never too independent to take care of her family. She’s the kind of person who keeps everything together, even when her mood swings try to mess with the rhythm.
                             </p>
 
                             <p className="font-serif text-xl leading-relaxed opacity-90">
-                                Her kindness is quiet but lasting, her faith is steady, and her heart holds space
-                                for everyone she loves. She believes in patience, in prayer, and in the gentle strength it takes to build a life rooted in peace and gratitude.
+                                She works hard and follows her passion for singing. Her voice is so good, it's a sweet melody that makes you wonder how a voice can be so perfect.
                             </p>
 
                             <p className="font-serif text-xl leading-relaxed opacity-90 italic">
-                                She is art, poetry, and music all wrapped into one beautiful soul.
+                                She is my daily dose of happiness, like coffee that tastes 1000 times better when I have it with her.
                             </p>
                         </div>
 
@@ -43,7 +42,7 @@ const AboutHer = () => {
                             {/* Main photo */}
                             <div className="bg-white p-4 rounded-2xl shadow-romantic hover:shadow-xl transition-all duration-300 rotate-3 hover:rotate-0">
                                 <img
-                                    src="/images/IMG-20250713-WA0021.jpg"
+                                    src="/images/ind3.jpg"
                                     alt="Beautiful moment"
                                     className="w-full h-80 object-cover rounded-lg"
                                 />
@@ -52,7 +51,7 @@ const AboutHer = () => {
                             {/* Smaller accent photos */}
                             <div className="absolute -top-8 -right-8 bg-white p-3 rounded-xl shadow-romantic rotate-12 hover:rotate-6 transition-transform duration-300">
                                 <img
-                                    src="/images/IMG-20250713-WA0023.jpg"
+                                    src="/images/IMG-20250915-WA0007.jpg"
                                     alt="Sweet moment"
                                     className="w-24 h-24 object-cover rounded-lg"
                                 />
@@ -60,7 +59,7 @@ const AboutHer = () => {
 
                             <div className="absolute -bottom-6 -left-6 bg-white p-3 rounded-xl shadow-romantic -rotate-6 hover:rotate-0 transition-transform duration-300">
                                 <img
-                                    src="/images/IMG-20250713-WA0030.jpg"
+                                    src="/images/IMG-20250915-WA0004.jpg"
                                     alt="Dreamy moment"
                                     className="w-28 h-28 object-cover rounded-lg"
                                 />

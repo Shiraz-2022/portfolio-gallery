@@ -2,20 +2,20 @@ import { Heart, Quote } from 'lucide-react';
 
 const quotes = [
     {
-        text: "She carries herself with quiet strength, untouched by the noise of the world.",
-        author: "Grace in simplicity"
+        text: "She's a beautiful contradiction: a little bit of rain and a whole lot of sun, but her song is always a sweet one.",
+        author: "Her Beautiful Contradiction"
     },
     {
-        text: "Her dignity is not in what she wears, but in how she carries her heart.",
-        author: "Strength beneath softness"
+        text: "She should know she's more beautiful than she thinks she is, a perfect lyric in a song she hasn't heard yet.",
+        author: "The Perfect Lyric"
     },
     {
-        text: "In every season, she blooms through patience and faith.",
-        author: "Rooted in trust"
+        text: "She built a fortress of love for her family, and every note she sings is a brick in its wall.",
+        author: "Love's Architect"
     },
     {
-        text: "Her worth was written long before this world knew her name.",
-        author: "A soul defined by purpose"
+        text: "In a world of noise, she's my favorite song, and the reason my day always starts with a smile.",
+        author: "My Daily Anthem"
     }
 ];
 

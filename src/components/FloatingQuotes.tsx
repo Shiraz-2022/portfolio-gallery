@@ -2,27 +2,27 @@ import { Heart, Sparkles } from 'lucide-react';
 
 const quotes = [
     {
-        text: "Indeed, with hardship comes ease. (Quran 94:6)",
+        text: "She's a little bit of a rock song, a little bit of a soft tune, but always beautiful.",
         position: "top-[10%] left-[5%]",
         delay: "delay-100"
     },
     {
-        text: "So remember Me; I will remember you. (Quran 2:152)",
+        text: "Her spirit is like an indie pop song, full of honest lyrics and bright melodies.",
         position: "top-[25%] right-[5%]",
         delay: "delay-300"
     },
     {
-        text: "Verily, in the remembrance of Allah do hearts find rest. (Quran 13:28)",
+        text: "Even on her moodiest day, her heart holds the sweetest music.",
         position: "top-[50%] left-[10%]",
         delay: "delay-500"
     },
     {
-        text: "And He found you lost and guided you. (Quran 93:7)",
+        text: "Every part of her, even the small sacrifices, adds up to a beautiful song.",
         position: "top-[40%] right-[15%]",
         delay: "delay-700"
     },
     {
-        text: "Indeed, Allah is with those who have patience. (Quran 2:153)",
+        text: "She's so kind and beautiful, a true masterpiece of a human being.",
         position: "top-[75%] left-[20%]",
         delay: "delay-900"
     }
