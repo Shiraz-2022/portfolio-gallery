@@ -16,7 +16,8 @@ const dreams = [
     "To have her voice be a happy song for everyone who needs one",
     "To always be there for her family, her greatest reason to keep going",
     "To have new adventures, making the journey as fun as the destination",
-    "To stay strong and keep her beautiful song playing, no matter her mood"
+    "To stay strong and keep her beautiful song playing, no matter her mood",
+    "To explore Netherlands and it's music culture, a beautiful new adventure just for her",
 ];
 
 const FavoriteThings = () => {

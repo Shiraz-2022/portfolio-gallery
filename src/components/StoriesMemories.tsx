@@ -15,6 +15,21 @@ const memories = [
         title: "The Flat Tire Journey",
         story: "The day I hijacked your scooty (like many days), it got a flat tire. We had to stop at a petrol pump to fill the air, and even though it was a small problem, it was a memorable journey with you. Traveling with you, even on a flat tire, was a perfect kind of adventure.",
         image: "/images/ind9.jpg"
+    },
+    {
+        title: "French Date",
+        story: "A day that holds a truly special place in my heart. It was the day I got to hug her for the very first time. And to top it all off, it was the day I learned I would happily eat a vegetarian meal, as long as it was with her. It was a day full of little moments that I'll never forget.",
+        image: "/images/ind10.jpeg"
+    },
+    {
+        title: "Our Glorified Maggi Date",
+        story: "We set out for a Japanese place but ended up at a spot that sold the most glorious Maggi, or as the receptionist called it, 'ramen made with golden magic powder' (which, we later realized, was just the Maggi magic). It didn't matter. With a song in our ears just for us, listening to English songs instead of the Korean ones they were playing, everything tasted like a perfect adventure.",
+        image: "/images/ind11.jpeg"
+    },
+    {
+        title: "The Auto Rides",
+        story: "Every auto ride with you feels like a mini adventure, a tiny journey where I feel so close to you. I always hope the ride never ends and we never reach your home. I just want to stare into your eyes, watching you smile and be shy throughout the whole journey. Each one is a memory I never want to forget.",
+        image: "/images/ind12.jpeg"
     }
 ];
 

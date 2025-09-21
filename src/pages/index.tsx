@@ -19,7 +19,7 @@ const Index = () => {
 
         // Reset state when the song ends
         audio.onended = () => {
-            setIsPlaying(false);
+            audio.play();
         };
 
         // Cleanup audio object on component unmount
