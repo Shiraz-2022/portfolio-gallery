@@ -146,17 +146,17 @@ const Index = () => {
                         <Sparkles className="absolute -top-4 -left-4 text-soft-lavender w-8 h-8 animate-sparkle opacity-60" />
                         <Sparkles className="absolute -bottom-4 -right-4 text-soft-gold w-6 h-6 animate-sparkle delay-300 opacity-60" />
 
-                        <h2 className="font-script text-5xl md:text-6xl text-gradient-pink mb-8 line-through decoration-pink-300 decoration-1">
+                        <h2 className="font-script text-5xl md:text-6xl text-gradient-pink mb-8">
                             To be continued...
                         </h2>
-                        <h2 className="font-script text-5xl md:text-6xl text-gradient-pink mb-8">
-                            The End
-                        </h2>
+                        {/*<h2 className="font-script text-5xl md:text-6xl text-gradient-pink mb-8">*/}
+                        {/*    The End*/}
+                        {/*</h2>*/}
                         {/*<p className="font-serif text-2xl text-dusty-rose mb-6 italic">*/}
                         {/* with you ♡*/}
                         {/*</p>*/}
                         <div className="w-48 h-0.5 bg-gradient-to-r from-transparent via-blush-pink to-transparent mx-auto mb-8"></div>
-                        <p className="font-serif text-lg text-dusty-rose leading-relaxed opacity-80 max-w-2xl mx-auto  line-through decoration-pink-300 decoration-1">
+                        <p className="font-serif text-lg text-dusty-rose leading-relaxed opacity-80 max-w-2xl mx-auto">
                             This is just the beginning of our beautiful story.
                         </p>
 
